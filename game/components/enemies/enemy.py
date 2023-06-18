@@ -9,7 +9,7 @@ class Enemy(Sprite):
     SHIP_HEIGHT = 60
     Y_POS = 20
     X_POS_LIST = [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550]
-    SPEED_Y = 1
+    SPEED_Y = 5
     SPEED_X = 5
     MOV_X = {0: 'left', 1: 'right'}
     IMAGE = {1: ENEMY_1, 2: ENEMY_2}

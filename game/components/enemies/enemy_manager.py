@@ -7,7 +7,6 @@ class EnemyManager:
         self.enemies = []
 
     def update (self, game):
-        
         self.add_enemy()
         for enemy in self.enemies:
             enemy.update(self.enemies, game)

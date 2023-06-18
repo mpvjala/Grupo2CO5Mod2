@@ -18,6 +18,7 @@ class BulletManager:
                 break
 
     def draw (self, screen):
+       
         for bullet in self.enemy_bullets:
             print(self.enemy_bullets)
             bullet.draw(screen)
